@@ -1,38 +1,65 @@
 .header{
-    background-color: rgb(74, 134, 225);
+    background-color: rgba(147, 71, 9, 0.968)
    
 }
-.navbar,ul{
+.navbar{
     display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
-   gap:30px;
-   list-style: none;
-   flex-shrink: 1;
+   padding:20px 40px;
+   color: white;
+}
+.logo-container{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.logo{
+    width: 40px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 50px;
+    list-style: none;
 }
 
 a{
     text-decoration: none;
+    color: white;
 }
 .content{
     display: flex;
     justify-content: space-around;
-    padding: 30px;flex-shrink: 1;
+    align-items: center;
+    padding: 10px 20px;
+    flex-shrink: 1;
+    color: white;
 }
 .img{
-    background-color: azure;
-   padding: 40px;
+    display: flex;
+    justify-content: space-around;
+   
 }
+.img img {
+    width: 100%;
+    max-width: 600px; 
+    height: 100%; 
+    max-height: 270px;
+}
+
 .body{
-    background-color: blueviolet;
+    background-color: rgb(159, 128, 6);
   
 }
 .flex-container{
     display:flex;
-    gap: 20px;  
+    gap: 50px;  
     padding: 50px;
     justify-content: center;
     flex-shrink: 1;
+    color: white;
     
 
 }
@@ -44,34 +71,39 @@ a{
     flex-shrink: 1;
     
 }
-.box{
-    background-color: rgb(145, 43, 43);
-    width: 40px;
-    height: 40px;
-    
-    
+.flex-item img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10PX;
+}
+.flex-item p{
+    text-align: center;
+    font-size: 16px;
 }
 .info{
     display: flex;
     flex-direction: column;
     padding:1px;
-    background-color: aquamarine;
+    background-color: rgb(227, 166, 91);
     justify-content: center;
     align-items: center;
     flex-shrink: 1;
 }
 .four{
     display: flex;
-    background-color: yellow;
+    background-color: rgb(74, 36, 36);
     justify-content: center;
     flex-shrink: 1;
 }
 .four-container{
     display:flex;
     width: auto;
+    color: white;
+    gap: 30px;
     justify-content: space-between;
     margin: 20px;
-    background-color: brown; 
+    background-color: rgb(108, 85, 85); 
     justify-content: center;
     align-items: center;
     padding: 5px 60px;
@@ -79,7 +111,7 @@ a{
 }
 .footer{
     padding: 1px;
-    background-color: rgb(105, 108, 108);
+    background-color: rgb(36, 70, 70);
     text-align: center;
     font-size: 25px;
     font-weight: 800;
